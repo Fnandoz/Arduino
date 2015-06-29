@@ -1,1 +1,1 @@
-Controll two LEDs using Arduino Ethernet Shield and Kivy
+Control two LEDs using Arduino Ethernet Shield and Kivy
