@@ -1,3 +1,8 @@
+'''
+Automatic led blink
+Just for testing the connection
+'''
+
 import urllib
 from time import sleep
 
