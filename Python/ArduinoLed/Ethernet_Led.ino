@@ -41,7 +41,7 @@ void loop(){
            
           client.println("<HTML>");
           client.println("<BODY>");
-          client.println("<H1>Acende LED</H1>");
+          client.println("<H1>Arduino Ethernet LED</H1>");
           client.println("<hr />");
           client.println("<br />");
           
