@@ -45,15 +45,11 @@ void loop(){
           client.println("<hr />");
           client.println("<br />");
           
-          client.println("<a href=\"/?ledon1\"\><button>Ligar Led 1</button></a>");
-          client.println("<a href=\"/?ledon2\"\><button>Ligar Led 2</button></a>");
-          client.println("<a href=\"/?ledon3\"\><button>Ligar Led 3</button></a>");
-          client.println("<a href=\"/?ledon4\"\><button>Ligar Led 4</button></a>");
+          client.println("<a href=\"/?ledon1\"\><button>Turn on Led 1</button></a>");
+          client.println("<a href=\"/?ledon2\"\><button>Turn on Led 2</button></a>");;
           client.println("<p>");
-          client.println("<a href=\"/?ledoff1\"\><button>Desligar Led 1</button></a>");
-          client.println("<a href=\"/?ledoff2\"\><button>Desligar Led 2</button></a>"); 
-          client.println("<a href=\"/?ledoff3\"\><button>Desligar Led 3</button></a>");        
-          client.println("<a href=\"/?ledoff4\"\><button>Desligar Led 4</button></a>");
+          client.println("<a href=\"/?ledoff1\"\><button>Turn off Led 1</button></a>");
+          client.println("<a href=\"/?ledoff2\"\><button>Turn off Led 2</button></a>");
           client.println("<\p>");
 
           client.println("</BODY>");
