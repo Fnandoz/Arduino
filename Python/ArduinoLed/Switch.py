@@ -48,13 +48,17 @@ class Switch(Widget):
                   d=.2).start(self)
         self.touch_control = None
 
-        if self.active is True:
-            url = "http://192.168.0.177/?ledon1"
-            f = urllib.urlopen(url)
+         if self.active is True:
+            url1 = "http://192.168.0.177/?ledon1"
+            url2 = "http://192.168.0.177/?ledon2"
+            f = urllib.urlopen(url1)
+            f = urllib.urlopen(url2)
             f.close()
         else:
-            url = "http://192.168.0.177/?ledoff1"
-            f = urllib.urlopen(url)
+            url1 = "http://192.168.0.177/?ledoff1"
+            url2 = "http://192.168.0.177/?ledoff2"
+            f = urllib.urlopen(url1)
+            f = urllib.urlopen(url2)
             f.close()
         return True
 
